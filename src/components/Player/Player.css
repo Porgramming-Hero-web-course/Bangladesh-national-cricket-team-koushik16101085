@@ -1,0 +1,21 @@
+.playerStyle{
+    border: 1px solid red;
+     margin:10px;
+      padding: 10px;
+      height: 500px;
+     width: 90%;
+     margin-left: 320px;
+     
+}
+.imageStyle {
+    height: 300px;
+}
+
+.main-button{
+  background-color: goldenrod; 
+  width: 150px;
+  height: 30px;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+
+}
