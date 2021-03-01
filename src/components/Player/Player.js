@@ -7,7 +7,7 @@ const Player = (props) => {
     const handleAddPlayer = props.handleAddPlayer;
     return (
         <div className="text-center d-inline-flex" >
-            <div className=' playerStyle mx-3 shadow-sm p-3 mb-5 bg-body rounded'>
+            <div className=' playerStyle mx-3 shadow-lg p-3 mb-5 bg-body rounded'>
                 <img className='imageStyle' src={image} alt="" />
                 <h4>Player Name: {name}</h4>
                 <p>salary: {salary}</p>

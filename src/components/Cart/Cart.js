@@ -6,8 +6,8 @@ const Cart = (props) => {
     const totalSalary = cart.reduce((sum, player) => sum + player.salary,0)
     return (
         <div>
-            <h2>This Is Players Added CricketClub: {cart.length}</h2>
-            <p >Total Salary: {totalSalary}</p>
+            {/* <h2>This Is Players Added CricketClub: {cart.length}</h2> */}
+            <h1>Total Bajat: {totalSalary}</h1>
         </div>
     );
 };

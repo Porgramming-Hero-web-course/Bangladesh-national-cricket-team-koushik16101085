@@ -5,7 +5,7 @@ const PlayerName = (props) => {
       let AddPlayersList = [];
       for (let i = 0; i < playerName.length; i++) {
           const player = playerName[i];
-         AddPlayersList = AddPlayersList +  ' '  + player.name;          
+         AddPlayersList = AddPlayersList +  ' , '  + player.name;          
       }
     return (
         <div>

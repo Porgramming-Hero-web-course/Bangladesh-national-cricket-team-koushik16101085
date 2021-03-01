@@ -21,10 +21,10 @@ function App() {
   
   return (
     <div className="text-center" >
-     <h1>Player Data loaded: {playersData.length}</h1>
+     <h1>Player-list-loaded: {playersData.length}</h1>
       <p className="player-add">Player Added: {cart.length}</p>
-      <Cart cart={cart}></Cart>
       <PlayerName playerName ={playerName}></PlayerName>
+      <Cart cart={cart}></Cart>
 
 
       {
